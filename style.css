@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+h1{
+color: black;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+padding: 10px;
+background-color:gainsboro
+}
+
+h1:hover{
+    color: rgba(182, 3, 3, 0.762);
+    background-color: aliceblue ;
+    /* transform: translateX(100%); */
+    transition: transform 2750ms ease-in-out ;
+}
+
+h2{
+    color: black;
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: black;
+}
+.Search-box{
+    width: 300px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+.Search-box:hover{
+    background-color: rgb(236, 186, 168);
+    font-size: 20px;
+}
+
+.button{
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    background-color: rgba(245, 14, 14, 0.762);
+    border: none;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.button:hover{
+    outline-offset: -8px;
+    color:  white;
+    background:black; }
+
+#content{
+    margin: 10px 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#content .box{
+    width: 300px;
+    padding: 10px 20px;
+    margin: 32px 20px;
+    background: rgb(14, 9, 9);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content .box .poster{
+    width: 70%;
+    height: 100%;
+}
+#content .box img{
+    width: 200px;
+    height: 100%;
+}
+#content .box .title{
+   font-size: 1.2rem;
+   margin-bottom: 10px;
+}
+#content .box .type{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+#content .box .moreinfo{
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background-color:  rgba(245, 14, 14, 0.762);
+    border-radius: 10px;
+    text-align: center;
+}
+#content .box .moreinfo a{
+    color: white;
+    line-height: 35px;
+    text-decoration: none;
+}
